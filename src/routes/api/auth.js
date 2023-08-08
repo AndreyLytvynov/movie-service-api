@@ -17,7 +17,7 @@ const {
 
 router
   .post(
-    "/users/signup",
+    "/users/register",
     validator.body(signupValidation),
     tryCatch(registration)
   )
